@@ -9,14 +9,9 @@ from telethon.tl.types import KeyboardButton, ReplyKeyboardMarkup, KeyboardButto
 import socket
 
 # ============== إعدادات البوت ==============
-BOT_TOKEN = "8656219234:AAExfUaal2mb1kG-MyH7TGjFxlcvmV4E4zk"  # ⚠️ ضع توكن البوت هنا
 
-API_ID = 30051047
-API_HASH = "21650e8511d73240d354f8d909d1fea1"
 
-ALLOWED_USER_ID = 5107839417  # المستخدم المصرح له
 
-USER_SESSION_FILE = "user_session.txt"
 
 class TelegramControllerBot:
     def __init__(self):
